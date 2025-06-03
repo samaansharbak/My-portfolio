@@ -1,0 +1,51 @@
+.second-top{
+    width: 50%;
+    height: 50px;
+    background-color:  hsl(0, 0%, 18%);
+    border: 1px solid hsl(0, 0%, 22%);
+    position: absolute;
+    right: 0;
+    border-radius: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    z-index: 1;
+}
+.second-top p {
+    color: white;
+    font-weight: 400;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.second-top p:hover{
+    color: #8a8585;
+}
+
+@media screen and (max-width: 768px) {
+    .second-top {
+        width: 100%;
+        height: 50px;
+        border-radius: 15px 15px 0px 0px;
+        position: fixed;
+        bottom: 0;
+        backdrop-filter: blur(10px);
+        background-color: rgba(50, 50, 50, 0.5);
+    }
+
+    
+}
+@media screen and (max-width:500px) {
+    .second-top {
+        width: 100%;
+        height: 50px;
+        border-radius: 15px 15px 0px 0px;
+        position: fixed;
+        bottom: 0;
+        backdrop-filter: blur(10px);
+        background-color: rgba(50, 50, 50, 0.5);
+    }
+    
+}
